@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvWeigth1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="25dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvIMCTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/tvIMCTitle"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvSystem1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/tvIMCDescription" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="169dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/tvSystem1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/tvSystem1" />
+
+            <TextView
+                android:id="@+id/tvHeight1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvHeight" />
+
+            <EditText
+                android:id="@+id/etHeightIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/etHeightIn"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvWeight" />
+
+            <EditText
+                android:id="@+id/etWeightPd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/etWeightPd"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnCalcular1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="@string/btnCalculateIMC"
+                android:text="Calcular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/tvSystem2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/tvSystem1" />
+
+            <TextView
+                android:id="@+id/tvHeight2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvHeight" />
+
+            <EditText
+                android:id="@+id/etHeightCm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/etHeightCm"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvWeight2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvWeight" />
+
+            <EditText
+                android:id="@+id/etWeightKg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/etWeightKg"
+                android:textSize="14sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="calcularIMCMetrico"
+                android:text="Calcular" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tvResultEnglish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/tvResult" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tvResultMetric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvResult" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

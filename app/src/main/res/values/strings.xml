@@ -1,0 +1,77 @@
+<resources>
+
+    <!--Main-->
+
+    <string name="app_name">Actividad1</string>
+    <string name="tvTitle">Menu Principal</string>
+    <string name="tvChoose">Elija una opción:</string>
+    <string name="btnAgeCalculator">Calcular edad</string>
+    <string name="btnShopPayment">Calcular el total de compra</string>
+    <string name="btnTest">Test</string>
+    <string name="btnIMCCalculator">Calculadora de IMC</string>
+
+    <!--Calculadora de edad-->
+
+    <string name="tvAgeTitle">Calculadora de edad</string>
+    <string name="etDate">Ingrese la fecha (dd/mm/aaaa)</string>
+    <string name="btnCalculateAge">Calcular edad en años</string>
+    <string name="tvAge"></string>
+
+    <!--Test-->
+    <string name="tvTestTitle">Test AndroidStudio</string>
+
+    <string name="tvQ1">1. ¿Cuál de las siguientes opciones describe mejor Android Studio?</string>
+    <string name="rb1a">a) Una red social.</string>
+    <string name="rb1b">b) Un entorno de desarrollo integrado (IDE) para apps Android.</string>
+    <string name="rb1c">c) Un sistema operativo.</string>
+    <string name="rb1d">d) Un navegador web.</string>
+
+    <string name="tvQ2">2. ¿Qué lenguaje de programación se utiliza principalmente en Android Studio?</string>
+    <string name="rb2a">a) Swift.</string>
+    <string name="rb2b">b) Python.</string>
+    <string name="rb2c">c) Java y Kotlin.</string>
+    <string name="rb2d">d) C++.</string>
+
+    <string name="tvQ3">3. ¿Qué archivo XML se utiliza para diseñar la interfaz de usuario en Android Studio?</string>
+    <string name="rb3a">a) styles.xml.</string>
+    <string name="rb3b">b) strings.xml.</string>
+    <string name="rb3c">c) layout.xml.</string>
+    <string name="rb3d">d) manifest.xml.</string>
+
+    <string name="tvQ4">4. ¿Cuál es la función del archivo "AndroidManifest.xml" en un proyecto de Android?</string>
+    <string name="rb4a">a) Contiene el código de las funciones principales de la app.</string>
+    <string name="rb4b">b) Define la estructura de la base de datos.</string>
+    <string name="rb4c">c) Establece la configuración de la aplicación, como permisos y actividades.</string>
+    <string name="rb4d">d) Gestiona los recursos visuales de la interfaz de usuario.</string>
+
+    <string name="tvQ5">5. ¿Cuál es el componente principal de la arquitectura de una app Android?</string>
+    <string name="rb5a">a) Servicios.</string>
+    <string name="rb5b">b) Actividades.</string>
+    <string name="rb5c">c) Fragments.</string>
+    <string name="rb5d">d) Broadcast receivers.</string>
+
+    <string name="tvQ6">6. ¿Cuál de las siguientes no es una carpeta típica en un proyecto de Android Studio?</string>
+    <string name="rb6a">a) Assets.</string>
+    <string name="rb6b">b) Java.</string>
+    <string name="rb6c">c) Resources.</string>
+    <string name="rb6d">d) Models.</string>
+
+    <string name="btnCalculateTest">Enviar</string>
+
+    <!--Calculadora de IMC-->
+
+    <string name="tvIMCTitle">Calculadora de IMC</string>
+    <string name="tvIMCDescription">Para calcular su índice de masa corporal, ingrese su estatura y peso.</string>
+    <string name="tvSystem1">Sistema inglés</string>
+    <string name="tvSystem2">Sistema metrico</string>
+    <string name="tvHeight">ESTATURA</string>
+    <string name="etHeightIn">En pulgadas</string>
+    <string name="etHeightCm">En centimetros</string>
+    <string name="tvWeight">PESO</string>
+    <string name="etWeightPd">En libras</string>
+    <string name="etWeightKg">En kilogramos</string>
+    <string name="btnCalculateIMC">Calcular</string>
+    <string name="tvResult">Resultado: </string>
+    <string name="VIMC"></string>
+
+</resources>

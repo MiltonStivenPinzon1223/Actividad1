@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="25dp">
+
+        <TextView
+            android:id="@+id/tvAgeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/tvTestTitle"/>
+
+        <TextView
+            android:id="@+id/tvQ1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvQ1" />
+
+        <RadioGroup
+            android:id="@+id/rg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb1a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb1a"/>
+            <RadioButton
+                android:id="@+id/rb1b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb1b"/>
+            <RadioButton
+                android:id="@+id/rb1c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb1c"/>
+            <RadioButton
+                android:id="@+id/rb1d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb1d"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tvQ2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvQ2"/>
+
+        <RadioGroup
+            android:id="@+id/rg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb2a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb2a"/>
+
+            <RadioButton
+                android:id="@+id/rb2b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb2b" />
+
+            <RadioButton
+                android:id="@+id/rb2c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb2c"/>
+            <RadioButton
+                android:id="@+id/rb2d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb2d"/>
+        </RadioGroup>
+        <TextView
+            android:id="@+id/tvQ3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvQ3"/>
+
+        <RadioGroup
+            android:id="@+id/rg3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb3a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb3a"/>
+            <RadioButton
+                android:id="@+id/rb3b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb3b" />
+            <RadioButton
+                android:id="@+id/rb3c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb3c"/>
+            <RadioButton
+                android:id="@+id/rb3d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb3d"/>
+        </RadioGroup>
+        <TextView
+            android:id="@+id/tvQ4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvQ4"/>
+
+        <RadioGroup
+            android:id="@+id/rg4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb4a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb4a"/>
+            <RadioButton
+                android:id="@+id/rb4b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb4b"/>
+            <RadioButton
+                android:id="@+id/rb4c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb4c"/>
+            <RadioButton
+                android:id="@+id/rb4d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb4d"/>
+        </RadioGroup>
+        <TextView
+            android:id="@+id/tvQ5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvQ5"/>
+
+        <RadioGroup
+            android:id="@+id/rg5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb5a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb5a"/>
+            <RadioButton
+                android:id="@+id/rb5b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb5b"/>
+            <RadioButton
+                android:id="@+id/rb5c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb5c"/>
+            <RadioButton
+                android:id="@+id/rb5d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb5d"/>
+        </RadioGroup>
+        <TextView
+            android:id="@+id/tvQ6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvQ6"/>
+
+        <RadioGroup
+            android:id="@+id/rg6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb6a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb6a"/>
+            <RadioButton
+                android:id="@+id/rb6b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb6b"/>
+            <RadioButton
+                android:id="@+id/rb6c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb6c"/>
+            <RadioButton
+                android:id="@+id/rb6d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rb6d"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnCalculateTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="calcularResultado"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="40dp"
+            android:text="@string/btnCalculateTest"/>
+
+    </LinearLayout>
+</ScrollView>
